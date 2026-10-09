@@ -11,6 +11,7 @@ no fabricated credentials.
 |---|---|
 | [**solana-costgate**](https://github.com/staxs78/solana-costgate) | After-cost profitability gate for atomic Solana arbitrage: models base + priority fees charged on failed txs, land probability, Jito tip, flashloan fee, rent, slippage and constant-product price impact. Stdlib-only Python, 14 tests. |
 | [**uart-decode**](https://github.com/staxs78/uart-decode) | Decode UART bytes from oscilloscope / logic-analyzer / VCD captures of a dead serial console: baud from measured bit-cell widths, LSB-first framing, bytes/ASCII, framing-error and idle/inversion stats. Stdlib-only Python, 7 tests. |
+| [**price-match**](https://github.com/staxs78/price-match) | Deterministic competitor price matching for Shopify catalogs: normalized SKU → title signature → token-overlap fuzzy ladder, confidence score + review flagging on every row, reads only public `/products.json` feeds. Stdlib-only Python, 8 tests. |
 
 ## Services (fixed scope, agreed price before work starts)
 
@@ -27,6 +28,8 @@ no fabricated credentials.
   title) matching of your catalog against competitors' public `/products.json`
   feeds, with confidence scores and a review queue — no Google-based guessing.
   Free first step: a match report on 10–20 of your SKUs. Quote by catalog size.
+  See [price-match](https://github.com/staxs78/price-match) → run it yourself or
+  open an issue.
 
 ## Payment & terms
 
